@@ -5,7 +5,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const Skills = () => {
   useEffect(() => {
-    AOS.init({ duration: 3000 });
+    AOS.init({ duration: 2500 });
   }, []);
   return (
     <div id="skills">

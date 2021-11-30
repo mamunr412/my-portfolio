@@ -34,7 +34,7 @@ const Footer = () => {
   }, 5000);
 
   useEffect(() => {
-    AOS.init({ duration: 3000 });
+    AOS.init({ duration: 2500 });
   }, []);
 
   return (
@@ -151,9 +151,9 @@ const Footer = () => {
 
           <Col sm={12} md={12}>
             <div>
-              <h4 style={{ color: "white" }} className="my-5">
+              <h6 style={{ color: "white" }} className="mt-5">
                 Copyright by Ⓒ Mamun
-              </h4>
+              </h6>
             </div>
           </Col>
         </Row>

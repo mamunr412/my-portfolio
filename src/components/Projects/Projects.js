@@ -5,7 +5,7 @@ import { Carousel, Col, Container, Row } from "react-bootstrap";
 
 const Projects = () => {
   useEffect(() => {
-    AOS.init({ duration: 3000 });
+    AOS.init({ duration: 2500 });
   }, []);
   return (
     <div className="pt-5" id="project">
@@ -132,7 +132,7 @@ const Projects = () => {
                         objectFit: "cover",
                       }}
                       className="d-block w-100 img-fluid"
-                      src=" https://i.ibb.co/8dN3rH6/motor-2.png"
+                      src="https://i.ibb.co/8dN3rH6/motor-2.png"
                       alt="Second slide"
                     />
 
@@ -146,7 +146,7 @@ const Projects = () => {
                         objectFit: "cover",
                       }}
                       className="d-block w-100 img-fluid"
-                      src=" https://i.ibb.co/j8JsyQG/motor-3.png"
+                      src="https://i.ibb.co/j8JsyQG/motor-3.png"
                       alt="Third slide"
                     />
 
@@ -300,7 +300,7 @@ const Projects = () => {
                         objectFit: "cover",
                       }}
                       className="d-block w-100 img-fluid"
-                      src=" https://i.ibb.co/W52qCd1/path-2.png"
+                      src="https://i.ibb.co/W52qCd1/path-2.png"
                       alt="Second slide"
                     />
 
@@ -314,7 +314,7 @@ const Projects = () => {
                         objectFit: "cover",
                       }}
                       className="d-block w-100 img-fluid"
-                      src=" https://i.ibb.co/yFfQZhm/path-3.png"
+                      src="https://i.ibb.co/yFfQZhm/path-3.png"
                       alt="Third slide"
                     />
 
@@ -328,7 +328,7 @@ const Projects = () => {
                         objectFit: "cover",
                       }}
                       className="d-block w-100 img-fluid"
-                      src=" https://i.ibb.co/ZhW6Tgf/path-4.png"
+                      src="https://i.ibb.co/ZhW6Tgf/path-4.png"
                       alt="Third slide"
                     />
 

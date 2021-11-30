@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 const HomeBanner = () => {
   useEffect(() => {
-    AOS.init({ duration: 3000 });
+    AOS.init({ duration: 2500 });
   }, []);
   return (
     <div style={{ height: "350px", backgroundColor: "#2a323a" }}>

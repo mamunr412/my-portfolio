@@ -60,7 +60,7 @@ const Footer = () => {
                 >
                   <i
                     style={{ fontSize: "40px", color: "white" }}
-                    class="fab fa-facebook"
+                    className="fab fa-facebook"
                   ></i>
                 </a>
                 <a
@@ -71,7 +71,7 @@ const Footer = () => {
                 >
                   <i
                     style={{ fontSize: "40px", color: "white" }}
-                    class="fab fa-github"
+                    className="fab fa-github"
                   ></i>
                 </a>
                 <a
@@ -81,7 +81,7 @@ const Footer = () => {
                 >
                   <i
                     style={{ fontSize: "40px", color: "white" }}
-                    class="fab fa-linkedin"
+                    className="fab fa-linkedin"
                   ></i>
                 </a>
               </div>

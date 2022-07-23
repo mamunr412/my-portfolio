@@ -13,7 +13,7 @@ const HomeBanner = () => {
           I am <span style={{ color: "#00ffc5" }}>Abdulla Al Mamun</span>
         </h2>
         <h3 style={{ color: "white" }} data-aos="zoom-in">
-          Hire me as Full-stack Developer
+          Hire me as Front-End Developer (React)
         </h3>
       </div>
       <button
@@ -31,11 +31,11 @@ const HomeBanner = () => {
             fontSize: "22px",
             color: "white",
           }}
-          href="https://drive.google.com/uc?export=download&id=15ar1US1LniS_m81ULc9CsCVwu3tILl2x"
+          href="https://drive.google.com/uc?export=download&id=1JXTTNXCiApuUpWiPN9bd_dhe-11SNZMD"
           target="_blank"
           rel="noreferrer"
         >
-          Resume
+        Download  Resume
         </a>
       </button>
     </div>

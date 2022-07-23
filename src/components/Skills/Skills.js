@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Col, Container, Row } from "react-bootstrap";
+import localization  from'../../image/images-removebg-preview.png'
+import sockit  from'../../image/socket.png'
 
 const Skills = () => {
   useEffect(() => {
@@ -69,6 +71,15 @@ const Skills = () => {
               >
                 <div>
                   <img
+                  width={70}
+                  height={50}
+                    src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png'
+                    alt=""
+                  />
+                  <h4>Next</h4>
+                </div> 
+                <div>
+                  <img
                     src="https://img.icons8.com/material-sharp/48/000000/github.png"
                     alt=""
                   />
@@ -95,14 +106,66 @@ const Skills = () => {
                   />
                   <h4>Node js</h4>
                 </div>
-                <div>
+               
+              </div>
+            </Col>
+          </Row>
+        </div>
+        <div>
+          <Row>
+            <Col sm={12}>
+              <div
+                data-aos="fade-right"
+                className="d-flex justify-content-evenly mt-4 "
+                style={{ marginLeft: "8px" }}
+              >
+                 <div>
                   <img
                     src="https://img.icons8.com/color/48/000000/mongodb.png"
                     alt=""
                   />
                   <h4>MongodB</h4>
                 </div>
+                <div>
+                  <img
+                  width={60}
+                  height={60}
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
+                    alt=""
+                  />
+                  <h4>Tailwind</h4>
+                </div>
+                <div>
+                  <img
+                  width={60}
+                  height={60}
+                    src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+                    alt=""
+                  />
+                  <h4>Ant Design</h4>
+                </div>
+              
+                <div>
+                  <img
+                  width={50}
+                  height={50}
+                    src={localization}
+                    alt=""
+                  />
+                  <h4>localization</h4>
+                </div>
+                <div>
+                  <img
+                  width={50}
+                  height={50}
+                    src={sockit}
+                    alt=""
+                  />
+                  <h4>Socket.IO</h4>
+                </div>
+                
               </div>
+       
             </Col>
           </Row>
         </div>
